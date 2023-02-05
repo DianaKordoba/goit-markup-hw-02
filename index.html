@@ -6,58 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<header>
+<header class="header">
     <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-            <li><a href="">Studio</a> </li>
-            <li><a href="">Portfolio</a> </li>
-            <li><a href="">Contacts</a> </li>
+        <a class="logo" href="./index.html">Web<span class="logo-two">Studio</span></a>
+        <ul class="headerlist">
+            <li><a class="header-link-current" href="">Studio</a> </li>
+            <li><a class="header-link" href="./portfolio.html">Portfolio</a> </li>
+            <li><a class="header-link" href="">Contacts</a> </li>
         </ul>
     </nav>
     <address>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="header-list-address">
+            <li><a class="addresslink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="addresslink" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
 </header>
 <main>
-    <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+    <section class="section-general">
+        <h1 class="section-general-title">Effective Solutions for Your Business</h1>
+        <button class="section-general-button" type="button">Order Service</button>
     </section>
     <section>
-        <h2>Characteristic</h2>
-        <ul>
+        <h2 class="hidden-title">Characteristic</h2>
+        <ul class="list-characteristic">
             <li>
-                <h3>Strategy</h3>
-                <p>Our goal is to identify the business
-                    problem to walk away with the perfect and creative solution.</p>
+                <h3 class="title-characteristic">Strategy</h3>
+                <p class="subtitle-characteristic">Our goal is to identify the business problem to walk away with the
+                    perfect and creative solution.</p>
             </li>
             <li>
-                <h3>Punctuality</h3>
-                <p>Bring the key message to the brand's audience for the best price within the shortest possible time.
-                </p>
+                <h3 class="title-characteristic">Punctuality</h3>
+                <p class="subtitle-characteristic">Bring the key message to the brand's audience for the best price
+                    within the shortest
+                    possible time.</p>
             </li>
             <li>
-                <h3>Diligence</h3>
-                <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
+                <h3 class="title-characteristic">Diligence</h3>
+                <p class="subtitle-characteristic">Research and confirm brands that present the strongest digital growth
+                    opportunities and minimize
                     risk.
                 </p>
             </li>
             <li>
-                <h3>Technologies</h3>
-                <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+                <h3 class="title-characteristic">Technologies</h3>
+                <p class="subtitle-characteristic">Design practice focused on digital experiences. We bring forth a deep
+                    passion for problem-solving.
                 </p>
             </li>
         </ul>
     </section>
     <section>
-        <h2>What are we doing</h2>
-        <ul>
+        <h2 class="title-project">What are we doing</h2>
+        <ul class="list-project">
             <li>
                 <img src="./images/computer.jpg" alt="computer" width="360">
             </li>
@@ -69,35 +78,36 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Our Team</h2>
-        <ul>
-            <li>
+    <section class="section-team">
+        <h2 class="title-team">Our Team</h2>
+        <ul class="list-team">
+            <li class="list-team-mark">
                 <img src="./images/mark.jpg" alt="Mark Guerrero" width="264">
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <h3 class="title-mark">Mark Guerrero</h3>
+                <p class="subtitle-mark">Product Designer</p>
             </li>
-            <li>
+            <li class="list-team-tom">
                 <img src="./images/tom.jpg" alt="Tom Ford" width="264">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="title-tom">Tom Ford</h3>
+                <p class="subtitle-tom">Frontend Developer</p>
             </li>
-            <li>
+            <li class="list-team-camila">
                 <img src="./images/camila.jpg" alt="Camila Garcia" width="264">
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="title-camila">Camila Garcia</h3>
+                <p class="subtitle-camila">Marketing</p>
             </li>
-            <li>
+            <li class="list-team-daniel">
                 <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264">
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <h3 class="title-daniel">Daniel Wilson</h3>
+                <p class="subtitle-daniel">UI Designer</p>
             </li>
         </ul>
     </section>
 </main>
-<footer>
-    <a href="./index.html">WebStudio</a>
-    <p>Increase the flow of customers and sales for your business with digital marketing & growth
+<footer class="footer-page">
+    <a class="footer-link" href="./index.html"><span class="footer-link-logo">Web</span>Studio</a>
+    <p class="footer-subtitle">Increase the flow of customers and sales for your business with digital marketing &
+        growth
         solutions.</p>
 </footer>
 
