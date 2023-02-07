@@ -73,7 +73,6 @@ body {
 
 .addresslink {
     font-style: normal;
-    font-weight: 400;
     text-decoration: none;
     color: var(--color-text);
     letter-spacing: 0.02em;
@@ -134,7 +133,6 @@ body {
 .subtitle-characteristic {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -185,7 +183,6 @@ body {
 
 .subtitle-team {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     text-align: center;
     color:var(--color-text);
@@ -221,7 +218,6 @@ body {
 .footer-subtitle {
     color: var(--color-footer);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -242,6 +238,7 @@ body {
     border:  1px solid var(--color-footer);
     letter-spacing: 0.04em;
     text-align: center;
+    border-radius: 4px;
 }
 
 .button-filter:hover,
@@ -267,6 +264,5 @@ body {
     color: var(--color-text);
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
     letter-spacing: 0.02em;
 }
